@@ -11,3 +11,11 @@ repos:
       - id: check-toml
       - id: check-added-large-files
       - id: check-merge-conflict
+  - repo: https://github.com/psf/black
+    rev: 21.7b0
+    hooks:
+    - id: black
+  - repo: https://github.com/PyCQA/flake8
+    rev: 3.9.2
+    hooks:
+    - id: flake8
