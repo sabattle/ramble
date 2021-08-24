@@ -12,6 +12,7 @@ A clear and concise description of what the bug is.
 
 **How To Reproduce**
 Steps to reproduce the behavior:
+
 1. Do this
 2. Do that
 3. See error
@@ -20,8 +21,9 @@ Steps to reproduce the behavior:
 If applicable, add screenshots to help explain your problem.
 
 **Environment (please complete the following information):**
- - OS: [e.g. Ubuntu]
- - Browser [e.g. Firefox]
 
-**Additional info**
+- OS: [e.g. Ubuntu]
+- Browser [e.g. Firefox]
+
+**Additional Info**
 Add any other relevant information here.

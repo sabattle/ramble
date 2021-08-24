@@ -1,6 +1,6 @@
 ---
 name: Feature
-about: A new feature to be completed.
+about: A new feature or request.
 title: "[Feature] - <Feature Description>"
 labels: feature
 assignees: ''
@@ -10,11 +10,12 @@ assignees: ''
 **Feature Description**
 A clear and concise description of what the feature is.
 
-**Acceptance Criteria**
-Steps to be completed before the feature is considered done.
-1. Do this
-2. Do that
-3. All done
+**Related Tasks**
+List of tasks that are related to this feature.
 
-**Additional info**
+- Task 1
+- Task 2
+- Task 3
+
+**Additional Info**
 Add any other relevant information here.

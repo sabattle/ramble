@@ -16,6 +16,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
     vim \
+    tree \
     python3-pip \
     nodejs \
     kubectl
