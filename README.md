@@ -1,5 +1,7 @@
 # Ramble
 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 ## Setting up
 
 For easy and consistent development, we are using a `devcontainer`. For for information about devcontainers, check out this link: https://code.visualstudio.com/docs/remote/containers
