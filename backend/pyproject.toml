@@ -16,6 +16,7 @@ isort = "^5.10.1"
 mypy = "^0.942"
 
 [tool.black]
+target_version = ["py310"]
 line-length = 120
 
 [tool.isort]

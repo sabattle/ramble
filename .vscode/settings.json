@@ -1,0 +1,15 @@
+{
+    "python.defaultInterpreterPath": "./backend/.venv/bin/python",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "./backend/.venv/bin/flake8",
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyPath": "./backend/.venv/bin/mypy",
+    "python.linting.mypyArgs": [
+        "--cache-dir=./backend/.mypy_cache"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "./backend/.venv/bin/black",
+    "editor.formatOnSave": true
+}

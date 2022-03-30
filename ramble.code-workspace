@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "root",
+			"path": "."
+		},
+		{
+			"path": "./backend"
+		},
+		{
+			"path": "./frontend"
+		}
+	],
+	"settings": {
+		"python.defaultInterpreterPath": ".venv/bin/python",
+		"python.terminal.activateEnvInCurrentTerminal": true,
+		"python.linting.enabled": true,
+		"python.linting.flake8Enabled": true,
+		"python.linting.flake8Path": ".venv/bin/flake8",
+		"python.linting.mypyEnabled": true,
+		"python.linting.mypyPath": ".venv/bin/mypy",
+		"python.linting.mypyArgs": [
+			"--cache-dir=.mypy_cache"
+		],
+		"python.formatting.provider": "black",
+		"python.formatting.blackPath": ".venv/bin/black",
+		"editor.formatOnSave": true,
+	}
+}

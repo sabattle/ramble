@@ -9,11 +9,13 @@ help: ## displays all available make targets
 # Installs all of the dependencies for Ramble and sets up pre-commit
 .PHONY: install
 install: ## installs all dependencies
-	@poetry install
-	@poetry run pre-commit install --install-hooks
+	@cd backend && \
+		poetry install && \
+	    poetry run pre-commit install --install-hooks
 
 # Installs only the dev dependencies for Ramble and sets up pre-commit
 .PHONY: install-dev
 install-dev: ## installs only dev dependencies
-	@poetry install --dev-only
-	@poetry run pre-commit install --install-hooks
+	@cd backend && \
+		poetry install --dev-only && \
+	    poetry run pre-commit install --install-hooks
